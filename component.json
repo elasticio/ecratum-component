@@ -4,9 +4,16 @@
   "credentials": {
     "fields": {
       "name": {
-        "label": "My API Key",
+        "label": "API Token",
         "required": true,
         "viewClass": "TextFieldView"
+      },
+      "baseURL": {
+        "label": "Base URL",
+        "required": true,
+        "viewClass": "TextFieldView",
+        "placeholder":"foo.ecratum.tk",
+        "note": "Only domain name without 'http://' or slashes"
       }
     }
   }
