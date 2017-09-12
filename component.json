@@ -1,0 +1,13 @@
+{
+  "title": "ecratum",
+  "description": "elastic.io integration component for ecratum API",
+  "credentials": {
+    "fields": {
+      "name": {
+        "label": "My API Key",
+        "required": true,
+        "viewClass": "TextFieldView"
+      }
+    }
+  }
+}
