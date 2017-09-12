@@ -3,7 +3,7 @@
   "description": "elastic.io integration component for ecratum API",
   "credentials": {
     "fields": {
-      "name": {
+      "token": {
         "label": "API Token",
         "required": true,
         "viewClass": "TextFieldView"

@@ -49,7 +49,7 @@ module.exports = {
       WARN,
       'consistent-as-needed'
     ],
-    'key-spacing': ERROR,
+    'key-spacing': ERROR, 'console': 0,
     'space-unary-ops': [
       ERROR,
       {
