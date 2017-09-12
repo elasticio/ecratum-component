@@ -23,7 +23,7 @@
   "dependencies": {
     "elasticio-node": "0.0.8",
     "elasticio-sailor-nodejs": "2.2.0",
-    "r2": "^1.0.0"
+    "request-promise-native": "^1.0.4"
   },
   "scripts": {
     "pretest": "node_modules/.bin/eslint lib spec --ext .json --ext .js --fix",
