@@ -12,8 +12,17 @@
         "label": "Base URL",
         "required": true,
         "viewClass": "TextFieldView",
-        "placeholder":"foo.ecratum.tk",
+        "placeholder": "foo.ecratum.tk",
         "note": "Only domain name without 'http://' or slashes"
+      }
+    }
+  },
+  "actions": {
+    "allProducts": {
+      "title": "All Products",
+      "main": "./lib/actions/allProducts.js",
+      "description": "Description for All Products",
+      "metadata": {
       }
     }
   }
